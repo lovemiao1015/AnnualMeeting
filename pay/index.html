@@ -67,13 +67,41 @@
             to { transform: rotateY(0); }
         }
         .box {
+			left: 7.5%;
             width: 33%;
-            height: 50%;
+            height: 40%;
             /*padding-top: 30px;*/
             /*padding-bottom: 30px;*/
             margin: 0 auto;
             position: relative;
             display: inline-block;
+        }
+		.box_left {
+           left: 7.5%;
+            width: 33%;
+            height: 40%;
+            /*padding-top: 30px;*/
+            /*padding-bottom: 30px;*/
+            margin: 0 auto;
+            position: relative;
+            display: inline-block;
+        }
+		.box_right {
+			left: 7%;
+            width: 33%;
+            height: 40%;
+            /*padding-top: 30px;*/
+            /*padding-bottom: 30px;*/
+            margin: 0 auto;
+            position: relative;
+            display: inline-block;
+        }
+		.down{
+            margin-top: 20px;
+        }
+
+        .top{
+            margin-bottom: 20px;
         }
         .flip{
             position: absolute;
@@ -81,24 +109,26 @@
     </style>
 </head>
 <body>
-<div id="box0" class="box viewport-flip"  title="点击翻面">
-    <a href="/" class="list flip out" style="height: 99%;width: 99%" ><img style="height: 100%;width: 100%" src="../images/pay/314000969996821152.jpg" alt="纸牌正面" /></a>
-    <a href="/" class="list flip" style="height: 100%;width: 100%" ><img src="../images/pay/1516699085.png" style='height: 100%;width: 100%;' alt="纸牌背面" /></a>
-</div><div id="box1" class="box viewport-flip"  title="点击翻面">
-    <a href="/" class="list flip out" style="height: 100%;width: 100%"><img style="height: 100%;width: 100%" src="../images/pay/306988309118476567.jpg" alt="纸牌正面" /></a>
-    <a href="/" class="list flip" style="height: 100%;width: 100%"><img src="../images/pay/1516699138.png" style="height: 100%;width: 100%" alt="纸牌背面" /></a>
-</div><div id="box2" class="box viewport-flip"  title="点击翻面">
-    <a href="/" class="list flip out" style="height: 100%;width: 100%"><img style="height: 100%;width: 100%" src="../images/pay/410848741924613343.jpg" alt="纸牌正面" /></a>
-    <a href="/" class="list flip" style="height: 100%;width: 100%"><img src="../images/pay/1516699168.png" style="height: 100%;width: 100%" alt="纸牌背面" /></a>
-</div></div><div id="box3" class="box viewport-flip"  title="点击翻面">
-    <a href="/" class="list flip out" style="height: 100%;width: 100%"><img style="height: 100%;width: 100%" src="../images/pay/321177401576167262.jpg" alt="纸牌正面" /></a>
-    <a href="/" class="list flip" style="height: 100%;width: 100%"><img src="../images/pay/1516699198.png" style="height: 100%;width: 100%" alt="纸牌背面" /></a>
-</div></div><div id="box4" class="box viewport-flip"  title="点击翻面">
-    <a href="/" class="list flip out" style="height: 100%;width: 100%"><img style="height: 100%;width: 100%" src="../images/pay/730203191716205815.jpg" alt="纸牌正面" /></a>
-    <a href="/" class="list flip" style="height: 100%;width: 100%"><img src="../images/pay/1516699250.png" style="height: 100%;width: 100%" alt="纸牌背面" /></a>
-</div></div><div id="box5" class="box viewport-flip"  title="点击翻面">
-    <a href="/" class="list flip out" style="height: 100%;width: 100%"><img style="height: 100%;width: 100%" src="../images/pay/229420276749906464.jpg" alt="纸牌正面" /></a>
-    <a href="/" class="list flip" style="height: 100%;width: 100%"><img src="../images/pay/1516699282.png" style="height: 100%;width: 100%" alt="纸牌背面" /></a>
+<p style="color: palevioletred;text-align: center;font-size: 20px">AllPay祝大家新年快乐！</p>
+<div id="box0" class="box_left viewport-flip top"   title="点击翻面">
+    <a href="#" class="list flip out"  style="overflow:hidden;height: 100%;width: 100%"  ><img style="max-height: 100%;width: 70%;" src="../images/pay/314000969996821152.jpg" alt="纸牌正面" /></a>
+    <a href="#" class="list flip"  ><img src="../images/pay/1.png" style='max-height: 80%;width: 70%;' alt="纸牌背面" /></a>
+</div><div id="box1" class="box viewport-flip top"  title="点击翻面">
+    <a href="#" class="list flip out" style="overflow:hidden;height: 100%;width: 100%" ><img style="max-height: 100%;width: 70%;" src="../images/pay/306988309118476567.jpg" alt="纸牌正面" /></a>
+    <a href="#" class="list flip" ><img src="../images/pay/2.png" style="max-height: 80%;width: 70%;" alt="纸牌背面" /></a>
+</div><div id="box2" class="box_right viewport-flip top"   title="点击翻面">
+    <a href="#" class="list flip out" style="overflow:hidden;height: 100%;width: 100%" ><img style="max-height: 100%;width: 70%;" src="../images/pay/856916836008687513.jpg" alt="纸牌正面" /></a>
+    <a href="#" class="list flip" ><img src="../images/pay/3.png" style="max-height: 80%;width: 70%;" alt="纸牌背面" /></a>
+</div>
+<div id="box3" class="box_left viewport-flip down"  title="点击翻面">
+    <a href="#" class="list flip out" ><img style="max-height: 80%;width: 70%;" src="../images/pay/321177401576167262.jpg" alt="纸牌正面" /></a>
+    <a href="#" class="list flip" ><img src="../images/pay/4.png" style="max-height: 80%;width: 70%;" alt="纸牌背面" /></a>
+</div><div id="box4" class="box viewport-flip"  title="点击翻面">
+    <a href="#" class="list flip out" style="overflow:hidden;height: 100%;width: 100%"  ><img style="height: 100%;width: 70%;" src="../images/pay/565868527742192577.jpg" alt="纸牌正面" /></a>
+    <a href="#" class="list flip" ><img src="../images/pay/5.png" style="max-height: 80%;width: 70%;" alt="纸牌背面" /></a>
+</div><div id="box5" class="box_right viewport-flip"  title="点击翻面">
+    <a href="#" class="list flip out" style="overflow:hidden;height: 100%;width: 100%" ><img style="height: 100%;width: 70%;" src="../images/pay/860627840167026993.jpg" alt="纸牌正面" /></a>
+    <a href="#" class="list flip" ><img src="../images/pay/6.png" style="max-height: 80%;width: 70%;" alt="纸牌背面" /></a>
 </div>
 </body>
 </html>
@@ -176,26 +206,25 @@
          eleBack[num] = obj;
     };
 
-    for(var i = 0;i < 6;i++){
-        (function (i) {
-            $("#box"+i).bind("click", function() {
-                console.log(i);
+    //for(var i = 0;i < 6;i++){
+    //    (function (i) {
+    //        $("#box"+i).bind("click", function() {
+    //            console.log(i);
                 // 切换的顺序如下
                 // 1. 当前在前显示的元素翻转90度隐藏, 动画时间225毫秒
                 // 2. 结束后，之前显示在后面的元素逆向90度翻转显示在前
                 // 3. 完成翻面效果
 
-                eleFront[i].addClass("out").removeClass("in");
-                setTimeout(function() {
-                    eleBack[i].addClass("in").removeClass("out");
+    //            eleFront[i].addClass("out").removeClass("in");
+    //            setTimeout(function() {
+    //                eleBack[i].addClass("in").removeClass("out");
                     // 重新确定正反元素
-                    funBackOrFront1(i);
-                }, 225);
-                return false;
-            });
-        }(i))
-
-    }
+    //                funBackOrFront1(i);
+    //            }, 225);
+    //            return false;
+    //        });
+    //    })(i)
+    //}
 
     // $("#box1").bind("click", function() {
     //     // 切换的顺序如下
